@@ -3,7 +3,7 @@
 ![Pipeline Status](https://img.shields.io/badge/status-beta-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-A **local**, **on‑demand** vulnerability assessment pipeline designed for Kali Linux environments. This pipeline leverages OWASP ZAP, deployed in a Docker container, and is triggered via Git hooks to perform security scans against the OWASP Juice Shop — a deliberately vulnerable web application. When a Git push is detected, the system automatically initiates a baseline scan and generates a comprehensive, timestamped HTML vulnerability report. These reports are saved in a structured `reports/` directory and are viewable through any browser. The pipeline is lightweight, self-contained, requires no internet connectivity beyond initial setup, and is ideal for offline testing, research, cybersecurity training, and demonstrating CI-integrated security automation practices.
+A lightweight, local, CI‑style security automation pipeline for web applications that brings vulnerability scanning directly into your development workflow. Whenever a developer pushes code, the system automatically invokes an OWASP ZAP scan (running in Docker) against any target web application you configure. Findings are captured in timestamped HTML reports in the reports/ directory, enabling teams to identify and remediate high‑severity issues before code merges.
 
 ## 🚀 Features
 
@@ -12,6 +12,23 @@ A **local**, **on‑demand** vulnerability assessment pipeline designed for Kali
 * **Containerized Scanner**: Runs ZAP in Docker (`--network=host`) for isolation.
 * **Clear Reporting**: Generates timestamped HTML reports in the `reports/` directory.
 * **Lightweight & Local**: No cloud services or external CI/CD required.
+
+🚀 Key Benefits
+
+Shift‑Left Security
+Integrates security testing into the development lifecycle—just push code to trigger scans.
+
+On‑Demand Control
+Start and stop the monitoring service as needed; no continuous resource usage.
+
+Containerized Scanning
+Leverages OWASP ZAP in Docker for isolation and easy updates.
+
+Extensible
+Swap or add scanners (e.g., Nikto, Nuclei) by adjusting scripts.
+
+Clear Reporting
+Generates human‑readable, timestamped HTML reports in reports/.
 
 ## 🧰 Prerequisites
 
