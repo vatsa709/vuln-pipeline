@@ -13,22 +13,13 @@ A lightweight, local, CI‑style security automation pipeline for web applicatio
 * **Clear Reporting**: Generates timestamped HTML reports in the `reports/` directory.
 * **Lightweight & Local**: No cloud services or external CI/CD required.
 
-🚀 Key Benefits
+## 🚀 Key Benefits
 
-Shift‑Left Security
-Integrates security testing into the development lifecycle—just push code to trigger scans.
-
-On‑Demand Control
-Start and stop the monitoring service as needed; no continuous resource usage.
-
-Containerized Scanning
-Leverages OWASP ZAP in Docker for isolation and easy updates.
-
-Extensible
-Swap or add scanners (e.g., Nikto, Nuclei) by adjusting scripts.
-
-Clear Reporting
-Generates human‑readable, timestamped HTML reports in reports/.
+* **Shift‑Left Security**: Integrates security testing into the development lifecycle—just push code to trigger scans.
+* **On‑Demand Control**: Start and stop the monitoring service as needed; no continuous resource usage.
+* **Containerized Scanning**: Leverages OWASP ZAP in Docker for isolation and easy updates.
+* **Extensible**: Swap or add scanners (e.g., Nikto, Nuclei) by adjusting scripts.
+* **Clear Reporting**: Generates human‑readable, timestamped HTML reports in `reports/`.
 
 ## 🧰 Prerequisites
 
