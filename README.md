@@ -3,8 +3,6 @@
 ![Pipeline Status](https://img.shields.io/badge/status-beta-blue)
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 
-![ChatGPT Image Jun 15, 2025, 09_15_36 PM](https://github.com/user-attachments/assets/b792e065-4a2c-498b-81ca-2833f206896c)
-
 
 A lightweight, local, CI‑style security automation pipeline for web applications that brings vulnerability scanning directly into your development workflow. Whenever a developer pushes code, the system automatically invokes an OWASP ZAP scan (running in Docker) against any target web application you configure. Findings are captured in timestamped HTML reports in the reports/ directory, enabling teams to identify and remediate high‑severity issues before code merges.
 
