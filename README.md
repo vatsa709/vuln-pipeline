@@ -138,8 +138,6 @@ vuln-pipeline/
 4. Push to the branch (`git push origin feature/MyFeature`).
 5. Open a Pull Request.
 
-Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and ensure all new features include documentation.
-
 ## 📜 License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
